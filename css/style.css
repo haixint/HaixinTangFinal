@@ -102,6 +102,7 @@ html,body{
 }
 
 .split-columns {
+  padding-top: 95px;
   width:100%;
   display:flex;
   text-align: center;
@@ -110,7 +111,7 @@ html,body{
 .column1 {
   width:33.33%;
   border:none;
-  padding:40 40;
+  padding:20 40;
   background-color: white;
 }
 
@@ -135,6 +136,7 @@ html,body{
 }
 
 .text2 {
+	padding-top: 160px;
 	text-align: center;
 	font-size: 40px;
 	text-decoration: none;
@@ -145,6 +147,31 @@ html,body{
 	color:black;
 }
 
+.nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav.responsive {position: top;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
 
 
