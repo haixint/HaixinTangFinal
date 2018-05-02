@@ -1,45 +1,79 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title> Haixin Tang </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style2.css">
-	<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
-</head>
-<body>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Haixin Tang</title>
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    
+  </head>
+  <body>
 
+	<nav class="navbar navbar-expand-md navbar-light bg-white">
+		<span class="navbar-text">HAIXIN TANG</span>
 
-<div class="bg4">
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapse_target">
+			<span class="navbar-toggler-icon "></span>
+
+		</button>
+		
+		<div class="collapse navbar-collapse" id="collapse_target">
+		<ul class="navbar navbar-nav navbar-right">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" aria-haspopup="true" aria-expanded="false" href="photo4.html">Photo
+					<span class="caret"></span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown_target">
+					<a class="dropdown-item" href="photo4.html">Ocean Beach</a>
+					
+					<a class="dropdown-item" href="photo1.html">Bay Area</a>
+				
+					<a class="dropdown-item" href="photo3.html">Yu Xin</a>
+			</div>
+			</li>
 	
-	<div class="text3">
+			<li class="nav-item">
+				<a class="nav-link" href="projects.html">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link avtive" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+		</ul>
+		</div>
+	</ul>
+	</nav>
+		<h1 class="text-center">About</h1>
+		<div class="container">
+  				<div class="row">
+    				<div class="col-md-6"> 
+						<div class="jumbotron">
+							<p>Haixin Tang is a sophomore at New York University. He is currently majoring in Integrated Digital Media and minoring in Business Studies.
+							<br><br>
+	    					He is interested in photogratphy. This website is a selection of his works.</p>
+	    				</div>
+   						 </div>
+    				<div class="col-md-6">
+    					<img src="img/about.jpg" class="center-block img-responsive"> 
+   						 </div>
+    			</div>
+  		</div>
 
-		<p id="intro">Haixin Tang is a sophomore at New York University. He is currently majoring in Integrated Digital Media and minoring in Business Studies.<br><br>
-	    He has keen interest in photogratphy. This website is a showcase of his works.</p>
 
-	</div>
-
-
-
-<button type="button" 
-	onclick="document.getElementById('intro').innerHTML='I have worked for a Chinese photographer for half an year and now looking for more opportunities to do digital photography.<br><br> I like playing tennis, hiking when I have free time.'">Know more about me!</button>
-
-
-<div class="home">
-	<h1>HAIXIN TANG</h1>
-</div>
-
-<div class="nav">
-	<a href="index.html">Home</a>
-    <a href="photos.html">Photos</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</div>
-
-
-
-
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>

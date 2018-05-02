@@ -1,48 +1,106 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title> Haixin Tang </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Haixin Tang</title>
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    
+  </head>
+  <body>
 
-<div class="bg">
-	<img class="slideshow" src="image/bg.jpg" >
-    <img class="slideshow" src="image/bg2.jpg" >
-    <img class="slideshow" src="image/bg3.jpg" >
-    <img class="slideshow" src="image/bg5.jpg" >
-    <img class="slideshow" src="image/bg6.jpg" >
+	<nav class="navbar navbar-expand-md navbar-light bg-white">
+		<span class="navbar-text">HAIXIN TANG</span>
+
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapse_target">
+			<span class="navbar-toggler-icon "></span>
+
+		</button>
+		
+		<div class="collapse navbar-collapse" id="collapse_target">
+		<ul class="navbar navbar-nav navbar-right">
+			<li class="nav-item">
+				<a class="nav-link active" href="index.html">Home</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" aria-haspopup="true" aria-expanded="false" href="photo4.html">Photo
+					<span class="caret"></span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown_target">
+					<a class="dropdown-item" href="photo4.html">Ocean Beach</a>
+          
+          <a class="dropdown-item" href="photo1.html">Bay Area</a>
+        
+          <a class="dropdown-item" href="photo3.html">Yu Xin</a>
+			</div>
+			</li>
+	
+			<li class="nav-item">
+				<a class="nav-link" href="projects.html">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+		</ul>
+		</div>
+	</ul>
+	</nav>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/bg.jpg" alt="First slide">
+     		 <div class="carousel-caption d-none d-md-block">
+    			<h4>Sausalito, California</h4>  			
+  			</div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/bg2.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+    			<h4>San Francisco, California</h4>  			
+  			</div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/bg3.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+    			<h4>San Francisco</h4>  			
+  			</div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
-<script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slideshow");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 3000);} 
-</script>
 
-<div class="home">
-	<h1>HAIXIN TANG</h1>
-</div>
 
-<div class="nav">
-	<a href="index.html">Home</a>
-    <a href="photos.html">Photos</a>
-    <a href="projects.html">Projects</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</div>
 
-</body>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,0 +1,74 @@
+body{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: black;
+}
+.navbar-default{
+	border: none;
+}
+
+.navbar{
+	border-radius: 0px;
+	padding-left: 25px;
+	margin-bottom: 0px;
+}
+
+.navbar .navbar-text{
+	font-size: 52px;
+	color:black;
+}
+
+.navbar .nav-item .nav-link {
+	position: relative;
+	color: black;
+	float: right;
+	font-size: 1.2em;
+}
+
+
+
+.container .col-md {
+	float: center;
+	padding-left: 40px;
+}
+
+.container .col-md-6 .jumbotron {
+  	margin-bottom: auto;
+	font-size: 1.3em;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+  	top: 50%;
+  	left:50%;
+  	transform: translate(-50%,-50%);
+  	height: 543px;
+  	width: 350px;
+  	background-color: transparent;
+ }
+
+.container .col-md-6 .center-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+ }
+
+ .container3 .card {
+ 	margin: 22px;
+ 	padding: none;
+ }
+
+ .container5 a{
+ 	color: black;
+	margin-right: 10px;
+ }
+
+.continer .button2{
+	margin: 2px solid;
+}
+
+.container5 a:hover{
+ 	text-decoration: none;
+ }
+
+ 
